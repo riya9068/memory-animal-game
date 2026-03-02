@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Memory Card Game</h1>
+  <div class="timer">
+  ⏱ Time: <span id="time">00:00</span>
+</div>
+  <div class="game-board">
+  <div class="card" data-animal="monkey"></div>
+  <div class="card" data-animal="monkey"></div>
+
+  <div class="card" data-animal="cat"></div>
+  <div class="card" data-animal="cat"></div>
+
+  <div class="card" data-animal="dog"></div>
+  <div class="card" data-animal="dog"></div>
+
+  <div class="card" data-animal="lion"></div>
+  <div class="card" data-animal="lion"></div>
+</div>
+  
+  <div id="popup" class="popup">
+  <h2 id="popup-text"></h2>
+</div>
+
+<div id="confetti-container"></div>
+</div>
+  <button id="reset">Reset Game</button>
+  <script src="script.js"></script>
+</body>
+</html>
