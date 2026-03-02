@@ -11,6 +11,6 @@ A responsive memory card game built using HTML, CSS and JavaScript.
 - Mobile friendly
 
 ## 🔗 Live Demo
-(https://github.com/riya9068/memory-animal-game )
+(https://riya9068.github.io/memory-animal-game/)
 
 Made with ❤️ by Riya
